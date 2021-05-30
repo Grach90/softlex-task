@@ -1,0 +1,29 @@
+.inputGroup {
+    width: unset;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Applogo {
+        animation: App-logo-spin infinite 10s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.brand {
+    padding-right: 12px;
+    background-color: #dfe2e5;
+    border-radius: 100px;
+}
+
+.form {
+    right: 20px;
+    position: absolute;
+}

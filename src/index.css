@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.card {
+    width: 150px;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 100px auto;
+}
+
+.card.active {
+    background-color: rgb(219, 15, 134);
+}
+
+.Armenia {
+    color: rgb(15, 219, 117);
+}
+
+.USA {
+    color: rgb(219, 15, 134);
+}
+
+.tasks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ToDo {
+    text-align: center;
+}
+
+.A {
+    text-align: center;
+}
+
+.task {
+    border: black solid 1px;
+    background-color: rgba(18, 144, 223, 0.5);
+    padding: 15px 30px;
+}
+
+.block {
+    background-color: gainsboro;
+    height: 900px;
+    width: 400px;
+    right: 40%;
+}
+
+.block div {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 5px;
+    left: 100%;
+}
+
+textarea {
+    resize: "none";
+}
